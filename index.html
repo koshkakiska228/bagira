@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <title>BaGiRaKoshka - стример</title>
     <style>
-        /* ФОН — ТВОЯ КАРТИНКА */
+        /* ВМЕСТО КАРТИНКИ — ГРАДИЕНТ (агрессивный, но стильный) */
         body {
             margin: 0;
             padding: 0;
-            background-image: url('https://www.rawpng.com/uploads/posts/2025-09/dark-cyberpunk-city-street-neon-signs-reflecting-water-pavement-digital-art-illustration.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a0408 50%, #2a0a12 100%);
             font-family: 'Arial', sans-serif;
             color: white;
+            min-height: 100vh;
         }
 
-        /* Полупрозрачная подложка для читаемости текста */
+        /* Лёгкая подложка, чтобы текст был читаемым */
         .overlay {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.5);
             min-height: 100vh;
             padding: 50px 20px;
         }
@@ -32,7 +30,7 @@
         h1 {
             font-size: 3em;
             color: #ff3366;
-            text-shadow: 0 0 10px #ff3366;
+            text-shadow: 0 0 15px #ff3366;
         }
 
         p {
@@ -47,7 +45,7 @@
 
         .link-btn {
             display: inline-block;
-            background-color: #222;
+            background-color: #1f1f1f;
             color: white;
             padding: 12px 24px;
             margin: 8px;
@@ -60,7 +58,7 @@
 
         .link-btn:hover {
             background-color: #ff3366;
-            box-shadow: 0 0 10px #ff3366;
+            box-shadow: 0 0 15px #ff3366;
             transform: scale(1.05);
         }
 
@@ -84,7 +82,7 @@
             font-size: 0.9em;
         }
 
-        /* КНОПКА ЧАТА В TELEGRAM */
+        /* Кнопка чата */
         .telegram-chat {
             position: fixed;
             bottom: 20px;
@@ -96,7 +94,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 12px rgba(0,0,0,0.4);
             transition: 0.2s;
             z-index: 1000;
         }
@@ -134,10 +132,10 @@
             <a href="https://vk.com/bag1ra_koshka" class="link-btn" target="_blank">📘 VK</a>
         </div>
 
-        <!-- БЛОК "ОБО МНЕ" (ЗАМЕНИ ТЕКСТ НА СВОЙ) -->
+        <!-- БЛОК "ОБО МНЕ" (замени текст на свой) -->
         <div class="about-me">
             <h2>📌 Кто я такой?</h2>
-            <p><strong>Меня зовут Коля, мне 21 год.</strong> В свободное время занимаюсь стримингом и монтажом видео. Начинал ещё в 14 лет на YouTube, потом была пауза, а теперь я вернулся с новыми силами.</p>
+            <p><strong>Меня зовут Коля, мне 20 лет.</strong> Я работаю посменно (48 часов), но в свободное время занимаюсь стримингом и монтажом видео. Начинал ещё в 14 лет на YouTube, потом была пауза, а теперь я вернулся с новыми силами.</p>
             <p>Здесь ты найдёшь прохождения Dead Space, PUBG, 7 Days to die и других игр. <strong>Мой девиз: никаких понтов, только честный сарказм, косяки и живое общение.</strong> Если хочешь просто отдохнуть и поржать — тебе ко мне.</p>
             <p>Вся обратная связь — в Telegram, ссылка есть на сайте. Жду твои вопросы и предложения по играм!</p>
         </div>
